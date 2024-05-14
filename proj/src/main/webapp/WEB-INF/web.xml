@@ -1,0 +1,26 @@
+<web-app>
+  <servlet>
+    <servlet-name>spl</servlet-name>
+    <servlet-class>Registration</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl</servlet-name>
+    <url-pattern>/linking</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>spl1</servlet-name>
+    <servlet-class>Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl1</servlet-name>
+    <url-pattern>/loglinking</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>spl2</servlet-name>
+    <servlet-class>Deposit</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>spl2</servlet-name>
+    <url-pattern>/depositlinking</url-pattern>
+  </servlet-mapping>
+</web-app>
