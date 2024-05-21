@@ -2,9 +2,101 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>ECE previous year papers</title>
 </head>
+<style>
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  background-color: #3ec7b5;
+  color: white;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+
+.pdf-section {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  margin: 20px 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pdf-section h2 {
+  text-align: center;
+}
+
+#search-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#search {
+  padding: 10px;
+  width: 70%;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hotpink;
+}
+
+.pdf-list a {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #004080;
+  background-color: #e8f0fe;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.pdf-list a:hover {
+  background-color: #d0e0ff;
+}
+</style>
 <body>
-<h1>Hellooo i am the home page</h1>
+<h1>ECE PREVIOUS YEAR QUESTIONS</h1>
+<section class="pdf-section">
+  <h2>Download Previous Year Question Papers</h2>
+  <form id="search-form">
+    <input type="text" id="search" placeholder="Search by subject or year">
+    <button type="button" onclick="searchPapers()">Search</button>
+  </form>
+  <div class="pdf-list" id="pdf-list">
+    <!-- PDF links here -->
+    <a href="https://drive.google.com/file/d/1-DBDX0Hyy1dIlH-n6N0GKLb3TW662bBi/view?usp=drivesdk" target="_blank">2023  3rd Year Ece 1st sem all subjects papers </a>
+    <a href="https://drive.google.com/file/d/1-8uqvhvP8D_bzey8dB2NhJVMSE61ijYI/view?usp=drivesdk" target="_blank">2022 3rd Year Ece MID1 & Mid2 papers</a>
+     <a href="https://drive.google.com/file/d/1-CpIwqM3F8Ipug5a1xlUibtY6ZPYgqjl/view?usp=drivesdk" target="_blank">2024 3rd Year Ece sem2 all* papers</a>
+      <a href="https://drive.google.com/file/d/1-DM2WAHmOIn3729Mw-9_07Itm1gcscHM/view?usp=drivesdk" target="_blank">R20 3rd Year Ece 2nd sem only end exams papers</a>
+    <!-- Add more links as needed -->
+  </div>
+</section>
+<script src="script.js"></script>
 </body>
 </html>
